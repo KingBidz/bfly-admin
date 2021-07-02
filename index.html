@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Log In</title>
+	<script type="text/javascript">
+		function checkpassword(){
+			var password = document.getElementById("passwordbox");
+			var passwordtext = password.value;
+																																																																																																														if (passwordtext == "decdhotel"){
+				return true;
+
+			}
+			else{
+				alert("User Denied");
+				return false;
+
+			}
+
+
+		}
+	</script>>
+</head>
+<body>
+	<p style="font-size: 50px;">welcome, log in now</p>
+	<p> enter password 2021 </p>
+
+	<p>Password: <input id="passwordbox" type = "password"> </p>
+	<a href="brandon.html" onclick="return checkpassword();"> log in </a>
+</body>
+</html>
